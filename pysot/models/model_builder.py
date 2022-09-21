@@ -24,6 +24,7 @@ from pysot.utils.mask_target_builder import _build_proposal_target, _build_mask_
 
 class ModelBuilder(nn.Module):
     def __init__(self):
+        
         super(ModelBuilder, self).__init__()
 
         # build backbone
